@@ -22,7 +22,11 @@
     "eject": "react-scripts eject",
     "watch:css": "node-sass src/main.scss src/app/App.css -w",
     "server": "nodemon server",
-    "launch": "npm-run-all --parallel start server"
+    "launch": "npm-run-all --parallel start server",
+    "compile:sass": "node-sass src/main.scss src/app/App.comp.css",
+    "prefix:sass": "postcss --use autoprefixer -b 'last 10 versions' src/app/App.concat.css -o src/app/App.prefix.css",
+    "compress:css": "node-sass src/app/App.prefix.css src/app/App.css --output-style compressed",
+    "build:css": "npm-run-all compile:sass prefix:sass compress:css"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -40,6 +44,10 @@
     ]
   },
   "devDependencies": {
-    "node-sass": "^4.14.1"
+    "autoprefixer": "^9.8.2",
+    "concat": "^1.0.3",
+    "node-sass": "^4.14.1",
+    "npm-run-all": "^4.1.5",
+    "postcss-cli": "^7.1.1"
   }
 }
