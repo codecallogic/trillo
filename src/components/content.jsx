@@ -6,7 +6,7 @@ class Content extends Component {
             <div className="content">
                 <nav className="sidebar">
                     <ul className="side-nav">
-                        <li className="side-nav_item">
+                        <li className="side-nav_item side-nav_item--active">
                             <a href="#" className="side-nav_link">
                                 <svg className="side-nav_icon">
                                     <use xlinkHref="/images/sprite.svg#icon-home3"></use>
