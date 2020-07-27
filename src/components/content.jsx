@@ -45,7 +45,42 @@ class Content extends Component {
                     </div>
                 </nav>
                 <main className="hotel-view">
-                    Hotel View
+                    <div className="gallery">
+                        <figure className="gallery-item">
+                            <img src="/images/hotel-1.jpg" alt="Photo of Hotel 1" className="gallery-photo"/>
+                        </figure>
+                        <figure className="gallery-item">
+                            <img src="/images/hotel-2.jpg" alt="Photo of Hotel 2" className="gallery-photo"/>                            
+                        </figure>
+                        <figure className="gallery-item">
+                            <img src="/images/hotel-3.jpg" alt="Photo of Hotel 3" className="gallery-photo"/>
+                        </figure>
+                    </div>
+                    <div className="overview">
+                        Hotel Las Palmas
+                    </div>
+                    <div className="overview-stars">
+                            <svg className="side-nav_icon">
+                                <use xlinkHref="/images/sprite.svg#icon-star-full"></use>
+                            </svg>
+                            <svg className="side-nav_icon">
+                                <use xlinkHref="/images/sprite.svg#icon-star-full"></use>
+                            </svg>
+                            <svg className="side-nav_icon">
+                                <use xlinkHref="/images/sprite.svg#icon-star-full"></use>
+                            </svg>
+                            <svg className="side-nav_icon">
+                                <use xlinkHref="/images/sprite.svg#icon-star-full"></use>
+                            </svg>
+                            <svg className="side-nav_icon">
+                                <use xlinkHref="/images/sprite.svg#icon-star-full"></use>
+                            </svg>
+                    </div>
+                    <div className="overview-location">
+                            <svg className="side-nav_icon">
+                                <use xlinkHref="/images/sprite.svg#icon-location"></use>
+                            </svg>
+                    </div>
                 </main>
             </div>
         )

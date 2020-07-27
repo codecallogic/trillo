@@ -156,6 +156,12 @@ body {
   text-align: center;
   padding: 2.5rem; }
 
+.gallery {
+  display: flex; }
+  .gallery-photo {
+    width: 100%;
+    display: block; }
+
 .container {
   max-width: 80rem;
   margin: 4rem auto;
