@@ -162,8 +162,74 @@ body {
     width: 100%;
     display: block; }
 
+.overview {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid var(--color-grey-light-2); }
+  .overview-heading {
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 1.5rem 2rem; }
+  .overview-stars {
+    margin-right: auto;
+    display: flex; }
+  .overview-icon-star, .overview-icon-location {
+    width: 1.25rem;
+    height: 1.25rem;
+    fill: var(--color-primary);
+    margin-right: .5rem; }
+  .overview-location {
+    font-size: 1.2rem;
+    display: flex;
+    vertical-align: center; }
+  .overview-rating {
+    background-color: var(--color-primary);
+    margin-left: 3rem;
+    color: white;
+    padding: 0 2.25rem;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+  .overview-rating-average {
+    font-size: 2.2rem;
+    font-weight: 300;
+    margin-bottom: -5px; }
+  .overview-rating-count {
+    font-size: .8rem;
+    text-transform: uppercase; }
+
+.btn-inline {
+  border: none;
+  color: var(--color-primary);
+  font-size: inherit;
+  border-bottom: 1px solid currentColor;
+  display: inline-block;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all .2s; }
+  .btn-inline:hover {
+    color: var(--color-grey-dark-1); }
+  .btn-inline:focus {
+    outline: none;
+    animation: pulsate 1s infinite; }
+
+@keyframes pulsate {
+  0% {
+    transform: scale(1);
+    box-shadow: none; }
+  50% {
+    transform: scale(1.05);
+    box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.25); }
+  100% {
+    transform: scale(1);
+    box-shadow: none; } }
+
 .container {
-  max-width: 80rem;
+  max-width: 85rem;
   margin: 4rem auto;
   background-color: var(--color-grey-light-2);
   box-shadow: var(--shadow-dark);
@@ -172,7 +238,7 @@ body {
 .header {
   height: 7rem;
   background-color: #fff;
-  border-bottom: var(--color-grey-light-2);
+  border-bottom: 1px solid var(--color-grey-light-2);
   display: flex;
   justify-content: space-between;
   align-items: center;

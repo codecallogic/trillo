@@ -57,29 +57,38 @@ class Content extends Component {
                         </figure>
                     </div>
                     <div className="overview">
-                        Hotel Las Palmas
-                    </div>
-                    <div className="overview-stars">
-                            <svg className="side-nav_icon">
-                                <use xlinkHref="/images/sprite.svg#icon-star-full"></use>
-                            </svg>
-                            <svg className="side-nav_icon">
-                                <use xlinkHref="/images/sprite.svg#icon-star-full"></use>
-                            </svg>
-                            <svg className="side-nav_icon">
-                                <use xlinkHref="/images/sprite.svg#icon-star-full"></use>
-                            </svg>
-                            <svg className="side-nav_icon">
-                                <use xlinkHref="/images/sprite.svg#icon-star-full"></use>
-                            </svg>
-                            <svg className="side-nav_icon">
-                                <use xlinkHref="/images/sprite.svg#icon-star-full"></use>
-                            </svg>
-                    </div>
-                    <div className="overview-location">
-                            <svg className="side-nav_icon">
-                                <use xlinkHref="/images/sprite.svg#icon-location"></use>
-                            </svg>
+                        <h1 className="overview-heading">
+                            Hotel Las Palmas
+                        </h1>
+                    
+                        <div className="overview-stars">
+                                <svg className="overview-icon-star">
+                                    <use xlinkHref="/images/sprite.svg#icon-star-full"></use>
+                                </svg>
+                                <svg className="overview-icon-star">
+                                    <use xlinkHref="/images/sprite.svg#icon-star-full"></use>
+                                </svg>
+                                <svg className="overview-icon-star">
+                                    <use xlinkHref="/images/sprite.svg#icon-star-full"></use>
+                                </svg>
+                                <svg className="overview-icon-star">
+                                    <use xlinkHref="/images/sprite.svg#icon-star-full"></use>
+                                </svg>
+                                <svg className="overview-icon-star">
+                                    <use xlinkHref="/images/sprite.svg#icon-star-full"></use>
+                                </svg>
+                        </div>
+                        <div className="overview-location">
+                                <svg className="overview-icon-location">
+                                    <use xlinkHref="/images/sprite.svg#icon-location"></use>
+                                </svg>
+                                <button className="btn-inline">Albuferia, Portugal</button>
+                        </div>
+
+                        <div className="overview-rating">
+                            <div className="overview-rating-average">8.6</div>
+                            <div className="overview-rating-count">439 votes</div>
+                        </div>
                     </div>
                 </main>
             </div>
