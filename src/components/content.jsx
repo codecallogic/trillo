@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+
 class Content extends Component {
     render () {
         return (
@@ -88,6 +89,40 @@ class Content extends Component {
                         <div className="overview-rating">
                             <div className="overview-rating-average">8.6</div>
                             <div className="overview-rating-count">439 votes</div>
+                        </div>
+                    </div>
+                    <div className="detail">
+                        <div className="description">
+                            <p className="paragraph">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem veritatis, aut laborum delectus laudantium perspiciatis ex, harum dolore non quae explicabo saepe distinctio dolor consequatur atque ipsa voluptas sed magnam!
+                            </p>
+                            <p className="paragraph">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <ul className="list">
+                                <li className="list-item">Close to the beach</li>
+                                <li className="list-item">Breakfast included</li>
+                                <li className="list-item">Free airport shuttle</li>
+                                <li className="list-item">Free wi-fi in all rooms</li>
+                                <li className="list-item">Air conditionair and heating</li>
+                                <li className="list-item">Pets allowed</li>
+                                <li className="list-item">We speak all languages</li>
+                                <li className="list-item">Perfect for families</li>
+                            </ul>
+                            <div className="recommend">
+                                <p className="recommend-count">
+                                    Lucy and 3 other friends recommend this hotel.
+                                </p>
+                                <div className="recommend-friends">
+                                    <img src="/images/user-3.jpg" alt="Friends 1" className="recommend-photo"/>
+                                    <img src="/images/user-4.jpg" alt="Friends 2" className="recommend-photo"/>
+                                    <img src="/images/user-5.jpg" alt="Friends 3" className="recommend-photo"/>
+                                    <img src="/images/user-6.jpg" alt="Friends 4" className="recommend-photo"/>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="user-reviews">
+                            User Reviews
                         </div>
                     </div>
                 </main>
