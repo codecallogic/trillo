@@ -122,7 +122,32 @@ class Content extends Component {
                             </div>
                         </div>
                         <div className="user-reviews">
-                            User Reviews
+                            <figure className="review">
+                                <blockquote className="review-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque voluptatibus nostrum pariatur laboriosam, incidunt commodi quam unde error enim laborum ratione soluta natus magni, exercitationem atque, dolorem vitae vero. Accusantium.
+                                </blockquote>
+                                <figcaption className="review-user">
+                                    <img src="/images/user-1.jpg" alt="" className="review-photo"/>
+                                    <div className="review-user-box">
+                                        <p className="review-user-name">Larry Half</p>
+                                        <p className="review-user-date">Aug 3, 2020</p>                                        
+                                    </div>
+                                    <div className="review-rating">8.5</div>
+                                </figcaption>
+                            </figure>
+                            <figure className="review">
+                                <blockquote className="review-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, corporis explicabo?
+                                </blockquote>
+                                <figcaption className="review-user">
+                                    <img src="/images/user-2.jpg" alt="" className="review-photo"/>
+                                    <div className="review-user-box">
+                                        <p className="review-user-name">Mary Tomas</p>
+                                        <p className="review-user-date">Feb 21, 2020</p>                                        
+                                    </div>
+                                    <div className="review-rating">7.8</div>
+                                </figcaption>
+                            </figure>
                         </div>
                     </div>
                 </main>

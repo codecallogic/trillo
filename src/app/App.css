@@ -276,6 +276,35 @@ body {
     .recommend-photo:not(:last-child) {
       margin-right: -1.5rem; }
 
+.review {
+  background-color: #fff;
+  box-shadow: var(--shadow-light);
+  padding: 2rem;
+  margin-bottom: 3.5rem; }
+  .review-user {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem; }
+  .review-photo {
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    margin-right: 1rem; }
+  .review-user-box {
+    margin-right: auto; }
+  .review-user-name {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: .8rem;
+    margin-bottom: .5rem; }
+  .review-user-date {
+    font-size: .8rem;
+    color: var(--color-grey-dark-3); }
+  .review-rating {
+    color: var(--color-primary);
+    font-size: 2.2rem;
+    font-weight: 300; }
+
 .container {
   max-width: 85rem;
   margin: 4rem auto;
@@ -307,13 +336,13 @@ body {
   flex: 1; }
 
 .detail {
+  font-size: 1rem;
   display: flex;
   padding: 4.5rem;
   background-color: var(--color-grey-light-1);
   border-bottom: var(--line); }
 
 .description {
-  font-size: 1rem;
   background-color: white;
   box-shadow: var(--shadow-light);
   flex: 0 0 60%;
@@ -321,5 +350,4 @@ body {
   padding: 2rem; }
 
 .user-reviews {
-  background-color: yellowgreen;
   flex: 1; }
