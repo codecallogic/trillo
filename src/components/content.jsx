@@ -148,8 +148,17 @@ class Content extends Component {
                                     <div className="review-rating">7.8</div>
                                 </figcaption>
                             </figure>
-                            <button className="btn-inline">Show all <span>&rarr;</span></button>
-                        </div>
+                            <button className="btn-inline">Show all <span>&rarr;</span></button>                            
+                        </div>                        
+                    </div>
+                    <div className="cta">
+                            <h2 className="cta-book-now">
+                                Good news we have 4 rooms available for your selected dates
+                            </h2>
+                            <button className="btn">
+                                <span className="btn-visible">Book now</span>
+                                <span className="btn-invisible">Only 4 rooms left</span>
+                            </button>
                     </div>
                 </main>
             </div>
