@@ -148,6 +148,7 @@ class Content extends Component {
                                     <div className="review-rating">7.8</div>
                                 </figcaption>
                             </figure>
+                            <button className="btn-inline">Show all <span>&rarr;</span></button>
                         </div>
                     </div>
                 </main>
