@@ -18,6 +18,10 @@
 }
 
 $bp-largest: 81rem;
+$bp-large: 71.875rem;
+$bp-medium: 46.875rem;
+$bp-small: 34.375rem;
+$bp-extra-small: 28.125rem;
 
 * {
     margin: 0;
@@ -32,6 +36,11 @@ $bp-largest: 81rem;
 
 html {
     box-sizing: border-box;
+    font-size: 62.5%;
+
+    @media only screen and (max-width: $bp-large){
+        font-size: 50%;
+    }
 }   
 
 body {
