@@ -6,4 +6,6 @@ Trillo is a hotel website conceopt design using CSS lastest technologies, such a
 
 <b> TECHNOLOGIES USED </b> CSS, SASS, FLEXBOX, NPM, REACT
 
-## GETTING STARTED
+## NEXT STEPS
+
+- Add backend functionalty and user interaction
