@@ -1,9 +1,9 @@
 {
-  "homepage": "https://codecallogic.github.io/trillo",
   "name": "trillo",
   "version": "0.1.0",
   "private": true,
   "proxy": "http://localhost:3001",
+  "homepage": "https://codecallogic.github.io/trillo/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
