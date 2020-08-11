@@ -25,7 +25,7 @@
     "server": "nodemon server",
     "launch": "npm-run-all --parallel start server",
     "compile:sass": "node-sass src/main.scss src/app/App.comp.css",
-    "prefix:sass": "postcss --use autoprefixer -b 'last 10 versions' src/app/App.concat.css -o src/app/App.prefix.css",
+    "prefix:sass": "postcss --use autoprefixer -b 'last 10 versions' src/app/App.comp.css -o src/app/App.prefix.css",
     "compress:css": "node-sass src/app/App.prefix.css src/app/App.css --output-style compressed",
     "build:css": "npm-run-all compile:sass prefix:sass compress:css"
   },
