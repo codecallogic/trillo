@@ -8,7 +8,7 @@ Trillo is a hotel website conceopt design using CSS lastest technologies, such a
 
 ## GETTING STARTED
 
-[<b>Visit on HEROKU</b>(https://trillo143.herokuapp.com/)]
+[<b>Visit on HEROKU</b>](https://trillo143.herokuapp.com/)
 
 ## NEXT STEPS
 
