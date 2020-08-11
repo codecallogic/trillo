@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "proxy": "http://localhost:3001",
-  "homepage": "https://codecallogic.github.io/trillo/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -24,6 +23,7 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
+    "heroku-postbuild": "npm run build",
     "watch:css": "node-sass src/main.scss src/app/App.css -w",
     "server": "nodemon server",
     "launch": "npm-run-all --parallel start server",
