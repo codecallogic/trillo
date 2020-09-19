@@ -47,7 +47,7 @@
     }
 
     &_input:focus + &_button {
-            background-color: var(--color-grey-light-3);
+        background-color: var(--color-grey-light-3);
     }
 
     &_button {
@@ -412,10 +412,6 @@
 
     &-count {
         margin-right: auto;
-    }
-
-    &-friends {
-
     }
 
     &-photo {
